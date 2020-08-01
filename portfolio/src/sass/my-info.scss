@@ -15,21 +15,18 @@
     .name {
         font-size: 2.7em;
         margin: 0;
-        font-family:$header-font;
+        font-family:$sub-title-font;
     }
     .title {
-        font-size: 1.9em;
-        font-family:$sub-title-font;
+        font-size: 1.7em;
+        font-family:$header-font;
     }
     .location {
         font-size: 1.4em;
-        font-family:$sub-title-font;
+        font-family:$header-font;
     }
-    
-
-
     .git-in {
-        margin: 5px 0;
+        margin: 5px 0 15px 0;
 
         a {
             color: black;
@@ -41,6 +38,28 @@
         }
         .fa-github {
             margin-left: 12px;
+        }
+    }
+    @media(max-width: 1500px) {
+        width: 50%;
+    }
+    @media(max-width: 800px) {
+        width: 75%;
+    }
+    @media(max-width: 500px) {
+        width: 100%;
+        .name {
+            font-size: 1.9em;
+            margin: 0;
+            font-family:$sub-title-font;
+        }
+        .title {
+            font-size: 1.2em;
+            font-family:$header-font;
+        }
+        .location {
+            font-size: 1em;
+            font-family:$header-font;
         }
     }
 }

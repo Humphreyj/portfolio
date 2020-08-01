@@ -29,6 +29,7 @@
         .project-desc {
             font-size: 1.4em;
             font-family: $sub-title-font;
+            text-align: center;
         }
     }
     .proj-buttons {
@@ -36,6 +37,15 @@
             margin: 0 10px;
             font-size: 1.2em;
             font-weight: bold;
+        }
+    }
+    @media(max-width: 800px) {
+        width: 95%;
+    }
+    @media(max-width: 500px) {
+
+        .project-img {
+            width: 300px;
         }
     }
 }
