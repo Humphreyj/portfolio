@@ -1,6 +1,7 @@
 @import 'fonts.scss';
 
 .project {
+    text-align: center;
     margin: 20px auto;
     width: 75%;
     border-radius: 8px;
@@ -43,9 +44,13 @@
         width: 95%;
     }
     @media(max-width: 500px) {
-
+        width: 95%;
         .project-img {
-            width: 300px;
+            width: 100%;
+        }
+        .proj-buttons {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

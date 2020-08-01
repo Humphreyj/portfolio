@@ -15,6 +15,27 @@
         transform: translateX(-205%);
         transition: transform 0.3s ease-out;
         z-index: 200;
+        display: none;
+        
+    }
+}
+
+.name-and-skills-open {
+   
+    border-right: 3px solid #333;
+    z-index: 300;
+    .skills-title {
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 5px;
+        margin-bottom: 0;
+        font-family: $header-font;
+        font-weight: bold;
+    }
+    @media(max-width: 500px) {
+        transition: transform 0.3s ease-out;
+        
+
         
     }
 }

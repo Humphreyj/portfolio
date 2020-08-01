@@ -58,11 +58,14 @@
             }
            
             p {
-                font-size: 1.2em;
+                font-size: 1.1em;
                 font-weight: bold;
                 margin-left: 10px;
             } 
         }//800px
+        @media(max-width: 500px) {
+            z-index: 300;
+        }
     }
     
 }
