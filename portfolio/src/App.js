@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navigation from './components/Navigation';
-import Weather from './components/Weather';
-import Slideshow from './components/Slideshow';
-
+import NameAndSkills from './components/NameAndSkills';
+import Projects from './components/projects/Projects';
+import './sass/global.scss'
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Weather />
-      <Slideshow />
+      <NameAndSkills />
+      <Projects />
    
     </div>
   );

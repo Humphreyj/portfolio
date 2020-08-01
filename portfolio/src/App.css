@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
-  background-color: #000;
+* {
+  box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+ 
+}
