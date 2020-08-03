@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 3px 6px #111;
+    z-index: 100;
     .project-img {
         width: 500px;
     }
@@ -19,7 +20,7 @@
         font-weight: bold;
     }
     .tech-stack {
-        font-size: 1.6em;
+        font-size: 1.3em;
         font-family: $skill-font;
     };
     .project-info {
